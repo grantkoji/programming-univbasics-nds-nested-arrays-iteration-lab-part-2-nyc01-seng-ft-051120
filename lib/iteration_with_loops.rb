@@ -11,9 +11,9 @@ def find_min_in_nested_arrays(src)
         mintemp = src[r_i][e_i]
       end
       e_i += 1  
-    end 
+    end
     min_temp_array << mintemp
     r_i += 1
-  end   
+  end
   min_temp_array
-end  
+end
